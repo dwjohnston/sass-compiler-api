@@ -1,0 +1,13 @@
+{
+  "name": "sass-compiler",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "node-sass": "^5.0.0"
+  }
+}
