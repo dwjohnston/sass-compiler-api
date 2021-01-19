@@ -16,14 +16,7 @@ var compile = function(req, res) {
     nodeSass.render({
       data: req.body.sass + ' ',
       outputStyle: "expanded",
-      stats: stats,
-      success: function(css) {
-          console.log("got here"); 
-
-      },
       error: function(error) {
-
-        console.log("error");
         res.status(500).send(error);
       }
     }, (err, result) => {
